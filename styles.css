@@ -1,0 +1,386 @@
+*
+{
+    background-color: #3C7f85;
+    margin-bottom: 0;
+}
+
+body
+{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 16px;
+    color: #272c3f;
+    margin: 0;
+    padding-top: 10px;
+}
+
+@media (max-width: 696px)
+{
+    body
+    {
+        padding-top: 48px;
+    }
+}
+
+.page_width
+{
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    /*margin-top: 40px; Test - must add top padding to main banner.*/
+    box-shadow: 3px 0px 0px 0px #2E6066, 7px 0px 0px 0px #356A70, 12px 0px 0px 0px #37757A, -3px 0px 0px 0px #2E6066, -7px 0px 0px 0px #356A70, -12px 0px 0px 0px #37757A;
+    background-color: #fff;
+}
+
+a
+{
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    color: #356F75;
+}
+
+.cognito
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    color: #fff;
+}
+
+.full_width_image
+{
+    margin-top: 32px;
+    margin-bottom: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 250px;
+}
+
+.center_image
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.scroll_point
+{
+    margin-top: -44px;
+    padding-top: 44px;
+    background-color: transparent;
+}
+
+a,em,h1,h2,h3,h4,h5,img,p,strong
+{
+    background-color: #fff;
+}
+
+p
+{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+h1,h2,h3,h4
+{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+h1,h2
+{
+    text-align: center;
+}
+
+h1
+{
+    font-weight: 700;
+    margin-top: 8px;
+    font-size: 26px;
+    color: #356F75;
+}
+
+h2
+{
+    font-size: 24px;
+    color: #356F75;
+}
+
+h2,h3,h4,h5
+{
+    font-weight: 400;
+}
+
+h3
+{
+    font-size: 20px;
+    color: #356F75;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 8px;
+}
+
+h4
+{
+    font-size: 14px;
+    color: #356F75;
+    margin-top: 30px;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+h5
+{
+    font-size: 17px;
+    color: #356F75;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.sub_h1
+{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: #356F75;
+}
+
+.letter
+{
+    font-size: 14px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.orthodox_cross
+{
+    float: left;
+    margin-left: 14px;
+    margin-right: 5px;
+    margin-top: 9px;
+    z-index: 900 !important;
+}
+
+.navbar
+{
+    background-color: #fff;
+    top: 0;
+    max-width: 980px;
+    position: fixed;
+    z-index: 888;
+}
+
+.navbar_stretch
+{
+    background-color: #fff;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 880;
+    border-bottom: 2px solid rgba(64,48,39,.2);
+}
+
+.navbar_stretch p
+{
+    opacity: 0;
+}
+
+.navbar a
+{
+    float: left;
+    display: block;
+    color: #1e2648;
+    text-align: center;
+    font-size: 16px;
+    margin: 8px 10px;
+    text-decoration: none;
+}
+
+@media (max-width: 500px)
+{
+    .navbar a
+    {
+        margin: 8px 5px;
+    }
+}
+
+@media (max-width: 696px)
+{
+    .navbar
+    {
+        border-bottom: 2px solid rgba(64,48,39,.2);
+    }
+}
+
+.navbar a: hover
+{
+    color: #356F75;
+}
+
+.active
+{
+    color: #40868D !important;
+}
+
+.main_banner
+{
+    background-color: #40868D;
+    padding-bottom: 8px;
+    padding-top: 26px;
+    padding-left: 10px;
+}
+
+.main_banner img
+{
+    width: 92%;
+    max-width: 604px;
+}
+
+.text_left
+{
+    text-align: left;
+}
+
+.justified_text
+{
+    text-align: justify;
+    padding-right: 30px;
+    font-size: 16px;
+}
+
+.text_left_top
+{
+    text-align: left;
+    margin-top: 16px;
+}
+
+.text_left_stretch_right
+{
+    text-align: left;
+}
+
+.poster_image
+{
+    border: 6px solid #fff;
+    box-shadow: 0px 0px 3px 0px #888;
+    margin: 0px 20px 10px 30px;
+    float: left;
+    min-width: 190px;
+}
+
+@media (max-width: 880px)
+{
+    .poster_image
+    {
+        height: 55%;
+        width: 55%;
+    }
+}
+
+@media (max-width: 730px)
+{
+    .poster_image
+    {
+        margin: 20px 20px 10px 30px;
+        float: none;
+        height: 70%;
+        width: 70%;
+    }
+}
+
+.small_print
+{
+    font-size: 12px;
+    padding-bottom: 0px;
+    margin-bottom: 20px;
+    width: 30%;
+    min-width: 200px;
+    float: left;
+}
+
+footer
+{
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #356F75;
+    box-shadow: 3px 0px 0px 0px #2E6066, 7px 0px 0px 0px #356A70, 12px 0px 0px 0px #37757A, -3px 0px 0px 0px #2E6066, -7px 0px 0px 0px #356A70, -12px 0px 0px 0px #37757A;
+}
+
+footer a,footer p
+{
+    background-color: transparent;
+}
+
+form
+{
+    float: right;
+    margin-right: 10px;
+    margin-top: 9px;
+    padding: 0;
+    background-color: #356F75;
+}
+
+input
+{
+    background-color: #356F75;
+}
+
+.paypal_1x1
+{
+    opacity: 0;
+}
+
+.lower_banner_text p,.lower_banner_text a
+{
+    font-size: 12px;
+    background-color: #356F75;
+    color: #fff;
+    text-align: left;
+    padding-top: 12px;
+    padding-bottom: 18px;
+    margin-bottom: 0;
+    margin-top: 0px;
+}
+
+.lower_banner_text a
+{
+    background-color: transparent;
+}
+
+.lower_banner_text p
+{
+    padding-left: 16px;
+}
+
+.flow_text_right
+{
+    float: left;
+    margin: 22px 20px 18px 20px;
+    padding-left: 10px;
+    padding-right: 6px;
+    background-color: transparent;
+}
+
+#counter
+{
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: right;
+    background-color: #fff;
+}
+
+.clearfix
+{
+    background-color: #fff;
+}
+
+.clearfix::after
+{
+    content: "";
+    clear: both;
+    display: table;
+}

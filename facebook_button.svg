@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400px" height="400px" viewBox="0 0 400 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>Export</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="facebook-app-symbol" fill-rule="nonzero">
+            <path d="M400,200 C400,310.5 310.5,400 200,400 C89.5,400 0,310.5 0,200 C0,89.5 89.5,0 200,0 C310.5,0 400,89.5 400,200" id="Shape" fill="#000000"></path>
+            <path d="M219.511402,357 L219.511402,215.6048 L266.960625,215.6048 L274.079408,160.48423 L219.511402,160.48423 L219.511402,125.297785 C219.511402,109.344091 223.924167,98.4718414 246.831378,98.4718414 L276,98.4598521 L276,49.1580647 C270.955697,48.5026525 253.640388,47 233.487158,47 C191.404002,47 162.593118,72.6829682 162.593118,119.83868 L162.593118,160.48423 L115,160.48423 L115,215.6048 L162.593118,215.6048 L162.593118,357 L219.511402,357 Z" id="f_1_-path" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>
