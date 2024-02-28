@@ -215,7 +215,7 @@ h5
     }
 }
 
-.navbar a: hover
+.navbar a:hover
 {
     color: #356F75;
 }
@@ -356,13 +356,16 @@ input
     padding-left: 16px;
 }
 
-.flow_text_right
+
+.img-flex
 {
-    float: left;
-    margin: 22px 20px 18px 20px;
-    padding-left: 10px;
-    padding-right: 6px;
-    background-color: transparent;
+    display: inline-flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: space-evenly;
+    margin: 2rem 0;
+    padding: 1.5rem 0;
+    background: rgba(53, 106, 112, 0.5);
 }
 
 #counter
