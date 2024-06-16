@@ -490,3 +490,12 @@ input
 .button:-webkit-details-marker {
     display: none;
 }
+
+.history__speakers-list {
+    background: unset;
+    list-style: none;
+}
+
+.history__speakers-list > * {
+    background: unset;
+}
