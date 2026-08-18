@@ -192,7 +192,7 @@
 
       <h2>Latest from our Instagram</h2>
 
-      <div style="position:relative; left: 5%; max-width: 90%; max-height: 50vh; overflow-y: scroll">
+      <div class="juicer-holder" style="position:relative; left: 5%; max-width: 91%; max-height: 50vh; overflow-y: scroll">
         <script src="https://www.juicer.io/embed/orthodoxyouthuk/embed-code.js"
                 type="text/javascript" async defer></script>
       </div>
@@ -247,5 +247,23 @@
         </p>
       </div>
     </footer>
+
+    <script>
+      (function() {
+        function hack() {
+          const ads = document.querySelectorAll('.juicer-ad');
+
+          if (ads.length) {
+            ads.forEach(node => node.remove());
+            document.querySelector('.juicer-holder').style['max-width'] = '90%';
+            console.log('Mischief managed')
+
+          } else
+            setTimeout(hack, 700);
+        }
+
+        setTimeout(hack, 1000);
+      })()
+    </script>
   </body>
 </html>
